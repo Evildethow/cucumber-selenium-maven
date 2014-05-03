@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cucumber-selenium-maven:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cucumber-selenium-maven-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cucumber-selenium-maven:war exploded" />
+    </root>
+  </artifact>
+</component>
