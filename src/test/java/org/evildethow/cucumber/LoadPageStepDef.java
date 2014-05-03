@@ -16,19 +16,8 @@ public class LoadPageStepDef {
         this.connector = connector;
     }
 
-    @Before
-    public void beforeScenario() {
-        System.out.println(" *** Before");
-    }
-
-    @After
-    public void afterScenario() {
-        System.out.println(" *** After");
-    }
-
     @Given("^I am a user with the splookifying module$")
     public void I_am_a_user_with_the_splookifying_module() {
-        System.out.println("I am a user with the splookifying module");
     }
 
     @When("^I load the page$")
