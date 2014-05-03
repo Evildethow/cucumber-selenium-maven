@@ -27,7 +27,7 @@ public class LoadPageStepDef {
 
     @Then("^I should see a greeting$")
     public void I_should_see_a_greeting() {
-        assertTrue(connector.isTextPresent("Hello World"));
+        assertTrue(connector.isTextPresent("Hello World 2"));
     }
 
 }
