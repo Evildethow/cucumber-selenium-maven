@@ -7,11 +7,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
 import java.util.concurrent.TimeUnit;
 
 public class WebConnector {
     private final static long DEFAULT_TIMEOUT = 2000;
-    WebDriver driver = new FirefoxDriver();
+    WebDriver driver = new HtmlUnitDriver();
 
     @Before
     public void initSelenium() throws Exception {
